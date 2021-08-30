@@ -1,0 +1,14 @@
+.buttonSearch {
+  margin-top: 0.5rem;
+  min-width: 100%;
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 0.2rem;
+  line-height: 1.2;
+  padding: 1rem;
+}
+.buttonSearch:hover {
+  cursor: pointer;
+  background: black;
+  color: white;
+}

@@ -1,0 +1,56 @@
+.contentText {
+  margin-top: 0.5rem;
+  padding: 0 1rem;
+  color: white;
+}
+
+body h1.headingLowerSize {
+  font-size: 1.5rem;
+}
+
+.contentText p {
+  font-size: 1.1rem;
+  padding-top: 1rem;
+}
+.contentText a {
+  font-weight: 600;
+  color: #3ef72d;
+}
+.contentText a:hover {
+  color: #db1b18;
+}
+.contentText i {
+  font-style: normal;
+  display: block;
+  padding: 0.5rem;
+  padding-top: 1.5rem;
+  font-size: 1rem;
+}
+@media (min-width: 1400px) {
+  body h1.headingLowerSize {
+    font-size: 2rem;
+  }
+
+  .contentText p {
+    font-size: 1.2rem;
+    padding-top: 1.2rem;
+  }
+
+  .contentText i {
+    padding-top: 1.6rem;
+    font-size: 1.1rem;
+  }
+}
+@media (min-width: 1570px) {
+  body h1.headingLowerSize {
+    font-size: 2.3rem;
+  }
+  .contentText p {
+    font-size: 1.5rem;
+    padding-top: 1.5rem;
+  }
+  .contentText i {
+    padding-top: 1.7rem;
+    font-size: 1.2rem;
+  }
+}

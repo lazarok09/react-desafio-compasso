@@ -1,0 +1,105 @@
+.container {
+  margin: 0 auto;
+  font-size: 1rem;
+  border: 1px solid rgb(255, 255, 255, 0.9);
+  padding-left: 0.1rem;
+}
+.title {
+  padding-left: 1rem;
+  font-size: 2rem;
+  transition: all 300ms ease-in-out;
+}
+.title:hover {
+  color: #7e1acf;
+}
+.link {
+  color: rgb(141, 73, 230);
+  text-decoration: white;
+  font-size: 1rem;
+  width: 100%;
+  word-break: break-all;
+}
+.link:hover {
+  color: rgb(188, 144, 247);
+  text-decoration: white;
+}
+div h2.heading {
+  width: 100%;
+  color: white;
+  font-size: 2.5rem;
+  padding-bottom: 5rem;
+}
+.customButton {
+  padding: 1rem;
+  color: red;
+  font-size: 1.5rem;
+  margin-top: 8rem;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  color: #410264;
+  transition: all 300ms ease-in-out;
+  margin-right: 1rem;
+}
+.customButton:hover {
+  cursor: pointer;
+  color: #530e79;
+  font-weight: bold;
+  background: #eee;
+}
+.upperParagraph {
+  font-size: 1.5rem;
+  color: white;
+}
+.instructions {
+  font-size: 2rem;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+.description {
+  width: 100%;
+}
+@media (max-width: 650px) {
+  .title {
+    font-size: 1rem;
+  }
+  .customButton {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  .upperParagraph {
+    font-size: 1.2rem;
+  }
+  div h2.heading {
+    font-size: 2rem;
+    padding-bottom: 3rem;
+  }
+}
+@media (max-width: 380px) {
+  .title {
+    font-size: 1rem;
+  }
+  .customButton {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+  }
+  .upperParagraph {
+    font-size: 1rem;
+  }
+  .instructions {
+    font-size: 1rem;
+  }
+  div h2.heading {
+    font-size: 2rem;
+    padding-bottom: 3rem;
+  }
+  .description {
+    font-size: 12px;
+  }
+  .link {
+    font-size: 0.7rem;
+  }
+  .link:hover {
+    color: rgb(188, 144, 247);
+    text-decoration: white;
+  }
+}

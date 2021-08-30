@@ -1,0 +1,49 @@
+footer {
+  margin-top: 5rem;
+}
+.footerContainer {
+  margin-top: 1rem;
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  display: none;
+}
+.iconSize {
+  height: 3rem;
+  width: 3rem;
+  background: rgb(170, 66, 255, 0.8);
+  border-radius: 25%;
+  border: 1px dotted black;
+}
+.title:hover {
+  color: #7e1acf;
+}
+.flexBox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  background: #eee;
+  height: 4rem;
+}
+.flexBox a {
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  padding: 1.2rem;
+  font-size: 1em;
+}
+@media (max-width: 750px) {
+  .footerContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flexBox {
+    border-radius: 5px;
+  }
+
+  .title {
+    font-size: 1rem;
+  }
+}

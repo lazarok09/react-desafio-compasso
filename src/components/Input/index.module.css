@@ -1,0 +1,25 @@
+.InputDiv input {
+  height: 2.5rem;
+  min-width: 100%;
+  font-size: 2rem;
+}
+input:hover {
+  box-shadow: -10px 4px 32px -10px rgb(156, 255, 234);
+  outline: none;
+}
+input::placeholder {
+  font-size: 1.5rem;
+  padding-left: 1rem;
+}
+@media (max-width: 800px) {
+  .InputDiv input {
+    margin: 0 auto;
+    width: 90%;
+    font-size: 1rem;
+  }
+}
+@media (max-width: 320px) {
+  input::placeholder {
+    font-size: 1rem;
+  }
+}

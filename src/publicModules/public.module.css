@@ -1,0 +1,85 @@
+.contentContainer {
+  max-width: 1500px;
+  padding: 8rem 3rem 0 3rem;
+  margin: 0 auto;
+}
+.contentContainer h2,
+.contentContainer h1 {
+  font-size: 3rem;
+}
+.backgroundImage {
+  background: url("../img/background.svg") repeat center;
+  max-width: 1500px;
+  min-height: 100vh;
+}
+.colorWhite {
+  color: white;
+}
+.colorGreen {
+  color: #3ef72d;
+}
+.colorGreen:hover {
+  color: #db1b18;
+  cursor: pointer;
+}
+.gridTwo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+}
+@media (max-width: 1024px) {
+  .gridTwo {
+    grid-template-columns: 1fr;
+  }
+  .contentContainer h2,
+  .contentContainer h1 {
+    font-size: 1.5rem;
+  }
+}
+.customButton {
+  padding: 0.8rem;
+  width: 50%;
+
+  font-size: 2rem;
+  border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  color: #410264;
+  transition: all 300ms ease-in-out;
+  margin-right: 1rem;
+
+  transition: all 300ms ease-in-out;
+}
+.customButton:hover {
+  cursor: pointer;
+  background: #eee;
+  color: #410264;
+}
+@media (max-width: 400px) {
+  .contentContainer {
+    padding: 8rem 0.5rem 0 0.5rem;
+  }
+  .customButton {
+    font-size: 1.5rem;
+    margin-top: 4rem;
+  }
+}
+@media (max-width: 768px) {
+  .customButton {
+    font-size: 1.5rem;
+    padding: 1rem 2.5rem;
+    width: auto;
+    margin-top: 2rem;
+  }
+}
+@media (max-width: 280px) {
+  .customButton {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+  }
+}
+@media (max-width: 320px) {
+  .customButton {
+    font-size: 1.5rem;
+    padding: 0.8rem 1.5rem;
+  }
+}

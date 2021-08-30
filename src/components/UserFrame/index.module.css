@@ -1,0 +1,80 @@
+.userFrame {
+  display: grid;
+  grid-template-columns: 1fr;
+  color: white;
+  background: rgb(133, 97, 233, 0.1);
+  padding: 0.5rem 0.5rem;
+  font-size: 1.5rem;
+  border-radius: 25px;
+}
+.imgFrame {
+  margin: 0 auto;
+  width: 50%;
+  height: 250px;
+}
+.userAvatar {
+  height: auto;
+  border-radius: 50%;
+  max-width: 100%;
+}
+.iconSize {
+  height: 3rem;
+  margin-bottom: 1rem;
+  width: 3rem;
+}
+.userFrameContent {
+  display: flex;
+  align-items: center;
+}
+.userFrameContent img + p {
+  padding-left: 1rem;
+}
+.userName {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Montserrat", sans-serif;
+}
+.starredLink {
+  color: white;
+  padding-left: 1rem;
+
+  transition: all 250ms ease-in-out;
+}
+.starredLink:hover {
+  color: #3ef72d;
+}
+.flexUserInfo {
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+@media (max-width: 1024px) {
+  .imgFrame {
+    margin: 0 auto;
+    width: 50%;
+    height: 550px;
+  }
+}
+@media (max-width: 900px) {
+  .imgFrame {
+    margin: 0 auto;
+    width: 50%;
+    height: 450px;
+  }
+}
+@media (max-width: 700px) {
+  .imgFrame {
+    margin: 0 auto;
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media (min-width: 1300px) {
+  .userName {
+    margin-top: 2rem;
+  }
+}
