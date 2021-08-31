@@ -89,8 +89,10 @@ A aplicação vai abrir em :
 [http://localhost:3000](http://localhost:3000)
 
 <p id="env">
-⚠️ Esse projeto utiliza variável ambiente com token na forma final, então teremos partes comentadas no código nos componentes  **User**,  **Starred** e **Repos**. Mas deixei um **.env_sample** para você entender como foi salvo um token em forma de variável ambiente. Por questões de segurança, não posso deixar o token nessa aplicação, mas fique a vontade para colocar um seu e testar. Para mais informaç~eos acesse [Autenticação básica](https://docs.github.com/pt/rest/overview/other-authentication-methods#basic-authentication)
+⚠️ Esse projeto utiliza variável ambiente com token na forma final, então teremos partes comentadas no código nos componentes  User,  Starred e Repos. Mas deixei um .env_sample para você entender como foi salvo um token em forma de variável ambiente. Por questões de segurança, não posso deixar o token nessa aplicação, mas fique a vontade para colocar um no seu e testar. PS: a aplicação com deploy na Vercel têm a autenticação e realiza até 5000 requisições por hora 🥰.
 </p>
+
+💬 Para mais informações acesse [Autenticação básica](https://docs.github.com/pt/rest/overview/other-authentication-methods#basic-authentication)
 
 ## :pencil2: Autor
 Lazaro Souza :runner: <br>
