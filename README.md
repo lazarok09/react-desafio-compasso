@@ -67,6 +67,8 @@ Linguagens de marcação, estilo e programação:
 🔴 Execução
 </h2>
 
+## Nesse link: [desafio compasso](https://react-desafio-compasso.vercel.app/)
+
 ### Scripts para clone, instalação e execução da aplicação
 
 ##### Você precisará de um terminal git, se estiver no Windows instale o [bash](https://git-scm.com/downloads)
