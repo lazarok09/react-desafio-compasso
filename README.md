@@ -67,7 +67,7 @@ Linguagens de marcação, estilo e programação:
 🔴 Execução
 </h2>
 
-## Nesse link: [desafio compasso](https://react-desafio-compasso.vercel.app/)
+## Nesse link: [implementação do desafio compasso](https://react-desafio-compasso.vercel.app/)
 
 ### Scripts para clone, instalação e execução da aplicação
 
